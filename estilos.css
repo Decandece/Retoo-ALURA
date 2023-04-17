@@ -29,8 +29,9 @@ body{
 
 
 
-.caja1 > div:first-child > textarea{
-    background: #F3F5FC;
+.caja1 > div:first-child > #text_to{
+    background: white;
+    position: relative;
     resize: none;
     width: 577px;
     height: 390px;
@@ -38,7 +39,7 @@ body{
     outline: none;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200px;
     font-size: 32px;
     line-height: 150%;
     color: #0A3871;
@@ -237,9 +238,9 @@ body{
         display: flex;
         position: relative;
         justify-content: center;
-
-        width: auto;
+        width: 310px;
         height: 567px;
+        left: 49px;
 
     }
 
@@ -256,7 +257,6 @@ body{
         flex-wrap: wrap;
         flex-direction: row;
         align-content: center;
-        right: 48px;
     }
 
     .cajota{
@@ -264,10 +264,12 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 20px;
-        background-color: white;
+        background-color:white;
         flex-direction: row;
         height: 700px;
         width: 500px;
+        left: 101px;
+        position: relative;
     
     }
 
@@ -292,10 +294,53 @@ body{
     width: 300px;
     height: 67px;
     position: relative;
-    left: 50px;
+    left: 82px;
+}
+
+.caja1 > div:first-child > #text_to{
+    background: white;
+    position: relative;
+    resize: none;
+    width: 428px;
+    height: 390px;
+    border: none;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    left: 25px;
+}
+
+.condicion{
+position: relative;
+left: 100px;
+
 }
 
 
+#textencrypt {
+    overflow: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    resize: none;
+    color: #495057;
+    max-width: 310px;
+    max-height: 630px;
+    word-wrap: break-word;
+    background-color: white;
+
+}
+
+#caja_text {
+    align-self: flex-start;
+    max-width: 310px;
+}
 }
     
 
